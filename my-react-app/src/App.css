@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.Livro {
+  margin: 20px;
+}
+
+.Livro img {
+  max-width: 200px;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px; 
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .Livro {
+    margin: 10px; 
+  }
+
+  .Livro img {
+    max-width: 150px; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px; 
+  }
+
+  h1 {
+    font-size: 1.2rem; 
+  }
+
+  .Livro {
+    margin: 5px; 
+  }
+
+  .Livro img {
+    max-width: 120px; 
+  }
+}
+
+.Menu {
+  background-color: black; 
+  padding: 10px; 
+}
+
+.Menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.Menu li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.Menu a {
+  color: white; 
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.Menu a:hover {
+  text-decoration: underline; 
+}
+
+
+
